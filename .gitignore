@@ -1,0 +1,14 @@
+.DS_Store
+.env
+__pycache__/
+db.sqlite3
+media/
+static/
+
+.idea/
+.venv/
+
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+
