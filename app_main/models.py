@@ -5,4 +5,5 @@ class Category(models.Model):
     
 
     def __str___(self):
-        return self.name
+        return self.name 
+    
