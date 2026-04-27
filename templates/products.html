@@ -1,0 +1,11 @@
+{% extend "base.html" %}
+
+{% block content %}
+<p> Mahsulotlar sahifasi </p>
+
+{% for pr in product %}
+    <p> {{pr.name}} </p>
+    <p> {{pr.price}} </p>
+{% endfor %}
+
+{% endblock content %}
